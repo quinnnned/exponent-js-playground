@@ -7,21 +7,14 @@ import {
   StyleSheet,
   View,
 } from 'react-native';
-import {
-  NavigationProvider,
-  StackNavigation,
-} from '@exponent/ex-navigation';
-import {
-  FontAwesome,
-} from '@exponent/vector-icons';
+import { NavigationProvider, StackNavigation } from '@exponent/ex-navigation';
+import { FontAwesome } from '@exponent/vector-icons';
 
 import Router from './navigation/Router';
 import cacheAssetsAsync from './utilities/cacheAssetsAsync';
 
 class AppContainer extends React.Component {
-  state = {
-    appIsReady: false,
-  }
+  state = { appIsReady: false }
 
   componentWillMount() {
     this._loadAssetsAsync();

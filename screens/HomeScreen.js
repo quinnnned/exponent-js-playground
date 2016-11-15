@@ -48,7 +48,7 @@ export default class HomeScreen extends React.Component {
             </View>
 
             <Text style={styles.getStartedText}>
-              whatever
+              cool beans yo
             </Text>
           </View>
 

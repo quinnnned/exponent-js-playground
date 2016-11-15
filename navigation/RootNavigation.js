@@ -1,19 +1,12 @@
 import React from 'react';
-import {
-  StyleSheet,
-  View,
-} from 'react-native';
-import {
-  Notifications,
-} from 'exponent';
+import { StyleSheet, View } from 'react-native';
+import { Notifications} from 'exponent';
 import {
   StackNavigation,
   TabNavigation,
   TabNavigationItem,
 } from '@exponent/ex-navigation';
-import {
-  FontAwesome,
-} from '@exponent/vector-icons';
+import { FontAwesome } from '@exponent/vector-icons';
 
 import Alerts from '../constants/Alerts';
 import Colors from '../constants/Colors';

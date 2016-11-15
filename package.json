@@ -2,7 +2,7 @@
   "name": "exponent-js-playground",
   "version": "0.0.0",
   "description": "Hello Exponent!",
-  "author": null,
+  "author": "Quinn Edwards",
   "main": "main.js",
   "scripts": {
     "test": "jest"
